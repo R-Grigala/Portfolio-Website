@@ -18,4 +18,4 @@ Your app is ready to be deployed!
 
 ### youtube video:
 
-### www.youtube.com/watch?v=hYv6BM2fWd8&t=743s
+### www.youtube.com/watch?v=hYv6BM2fWd8&t=2991s
