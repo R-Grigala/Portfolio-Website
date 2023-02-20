@@ -11,7 +11,7 @@ export const NavBar = () => {
 
     useEffect(() => {
         const onScroll = () => {
-            if (window.screenY > 50) {
+            if (window.screenY > 20) {
                 setScrolled(true);
             } else {
                 setScrolled(false);
