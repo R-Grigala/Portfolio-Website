@@ -40,6 +40,7 @@ export const Contact = () => {
               draggable: true,
               progress: undefined,
             });
+            e.target.reset();
             setStatus({ success: false, message: 'Something went wrong, please try again later'});
           });
       };
