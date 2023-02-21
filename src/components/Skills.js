@@ -38,19 +38,19 @@ export const Skills = () => {
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             <Carousel responsive={responsive} infiniti={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image"/>
+                                    <img src={meter1} alt=""/>
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image"/>
+                                    <img src={meter2} alt=""/>
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image"/>
+                                    <img src={meter3} alt=""/>
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image"/>
+                                    <img src={meter1} alt=""/>
                                     <h5>Web Development</h5>
                                 </div>
                             </Carousel>
@@ -58,7 +58,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp}/>
+            <img className="background-image-left" src={colorSharp} alt="" />
         </section>
     )
 }
