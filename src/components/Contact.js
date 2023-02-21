@@ -9,6 +9,7 @@ export const Contact = () => {
 
     const [buttonText, setButtonText] = useState('Send');
     const form = useRef();
+    const [status, setStatus] = useState({});
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -28,6 +29,7 @@ export const Contact = () => {
               });
             e.target.reset();
             setButtonText("Send");
+            setStatus({ success: true, message: 'Message sent successfully'});
           }, (error) => {
             toast.error("Dont sent your email", {
               position: "top-right",
@@ -37,7 +39,8 @@ export const Contact = () => {
               pauseOnHover: true,
               draggable: true,
               progress: undefined,
-              });
+            });
+            setStatus({ success: false, message: 'Something went wrong, please try again later'});
           });
       };
 
@@ -69,6 +72,12 @@ export const Contact = () => {
                                     <textarea rows="6" name="message" placeholder="Type your Message here" ></textarea>
                                     <button type="submit"><span>{buttonText}</span></button>
                                 </Col>
+                                {
+                                    status.message &&
+                                    <Col>
+                                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                                    </Col>
+                                }
                             </Row>
                         </form>
                     </Col>
