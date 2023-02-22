@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon1} alt="" /></a>
-                <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon2} alt="" /></a>
-                <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon3} alt="" /></a>
+                <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon1} alt="" /></a>
+                <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon2} alt="" /></a>
+                <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let's Connect</span></button>

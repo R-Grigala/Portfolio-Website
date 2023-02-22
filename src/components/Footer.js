@@ -16,9 +16,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://effervescent-bavarois-d6aa41.netlify.app/"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://meek-rabanadas-dcc9ac.netlify.app/"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
